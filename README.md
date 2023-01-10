@@ -1,1 +1,2 @@
 # Ejercicio-tarjeta
+tarjeta descriptiva 
