@@ -1,0 +1,99 @@
+.carta{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(54, 1, 1);
+    width: 600px;
+    height: 650px;
+    border-radius: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.foto-portada{
+    width: 100%;
+    
+    
+      
+}
+.foto-perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    
+   
+}
+.nombre{
+    color: brown;
+    position: relative;
+    top: 180px;
+    z-index: 1;
+    
+    
+}
+.fotito{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.portada{
+    width: 600px;
+    height: 150px;
+    border-radius: 20px;
+}
+.informacion{
+    color:brown;
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    top: 400px;
+    margin-top: 0px;
+}
+.winrate{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 190px ;
+    height: 200px;
+}
+
+.pickrate{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 190px ;
+    height: 200px;
+}
+.banrate{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 190px ;
+    height: 200px;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    
+}
+.boton{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    top: 625px;
+    border-radius: 10px;
+    width: 200px;
+}
